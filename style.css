@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(to left, #ADE6FF,#109DFF);
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-spacing: 2px 10px;
+  margin-top: 20vh;
+}
+
+button {
+  height: 8vh;
+  width: 8vh;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px 15px;
+  cursor: pointer;
+  transition: 0s;
+}
+
+button:active {
+  transform: translateY(4px)
+}
+
+.operations {
+  background: #B2DAFF;
+  border-radius: 5px 15px;
+}
+
+.display {
+  height: 8vh;
+  width: 25vh;
+  font-size: 20px;
+  border-radius: 5px 15px;
+  border: none;
+  outline: none;
+}
+
+.equalTo {
+  background: #19ACFF;
+}
+
+.clear {
+  background: #B2DAFF;
+}
+
